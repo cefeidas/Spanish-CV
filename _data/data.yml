@@ -4,262 +4,167 @@
 
 sidebar:
     position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
+    name: Daniel Martín
     tagline: Full Stack Developer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-    # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
+    # Enlaces de la barra lateral
+    email: danmarmon1986@gmail.com
+    phone: +34 644240525
+    timezone: Hora Central Europea (CET)
+    citizenship: Español
+    linkedin: www.linkedin.com/in/daniel-m-monge
+    github: github.com/cefeidas
     pdf: http://www.africau.edu/images/default/sample.pdf
 
     languages:
-      title: Languages
+      title: Idiomas
       info:
-        - idiom: English
-          level: Native
+        - idiom: Español
+          level: Nativo
 
-        - idiom: French
-          level: Professional
+        - idiom: Francés
+          level: Profesional
 
-        - idiom: Spanish
-          level: Professional
+        - idiom: Inglés
+          level: Profesional
 
     interests:
-      title: Interests
+      title: Intereses
       info:
-        - item: Climbing
+        - item: Patinaje
           link:
 
-        - item: Snowboarding
+        - item: Juegos de Rol
           link:
 
-        - item: Cooking
+        - item: Filosofía
           link:
 
 career-profile:
-    title: Career Profile
-    summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+  title: Perfil Profesional
+  summary: |
+    Soy un Desarrollador de Software Junior con una sólida base tanto en desarrollo front-end como back-end. Mi reciente incursión en el campo se ha marcado por el rápido desarrollo de aplicaciones prácticas y un gran interés en las prácticas modernas de desarrollo de software. Motivado por la curiosidad y la pasión por la resolución de problemas, he construido varios proyectos que demuestran mi capacidad para aprender rápidamente y aplicar nuevas tecnologías de manera efectiva. Estoy ansioso por unirme a un equipo donde pueda aportar mis habilidades y continuar mi crecimiento profesional.
+
 education:
-    title: Education
-    info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+  title: Educación
+  info:
+    - degree: Diploma en Desarrollo de Software Full Stack
+      university: Instituto de Código
+      time: En curso
+      details: |
+        Un programa intensivo centrado en el desarrollo de habilidades prácticas para construir aplicaciones web completas, desde el front-end hasta el back-end, utilizando tecnologías como HTML, CSS, JavaScript, Python y Django.
+          - Desarrollé proyectos prácticos para aplicar los conocimientos adquiridos.
+          - Enfatizado en la programación orientada a objetos, bases de datos y metodologías de desarrollo ágil.
+
+    - degree: Cursos en Física
+      university: Universidad de Sevilla
+      time: 2007 - 2011
+      details: |
+        Participé en varios cursos avanzados de física, cubriendo temas desde la mecánica cuántica hasta la relatividad general.
+          - Obtuve una base sólida en métodos matemáticos para la física.
+          - Realicé proyectos de investigación y presentaciones sobre temas seleccionados.
+
+    - degree: Cursos en Filosofía
+      university: Universidad de Sevilla
+      time: 2011 - 2015
+      details: |
+        Estudio intensivo de la filosofía occidental, con enfoque en lógica, ética y filosofía de la mente.
+          - Análisis crítico de argumentos filosóficos y desarrollo de habilidades de pensamiento crítico.
+          - Participé en seminarios y discusiones grupales sobre temas filosóficos contemporáneos.
 
 experiences:
-    title: Experiences
-    info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+  title: Experiencias
+  info:
+    - role: Especialista en Gestión de Riesgos
+      time: Noviembre 2021 – 2023
+      company: TaskUs Ireland Private Limited, Ballymount Industrial Estate, Dublín, Irlanda
+      details: |
+        Enfocado en la gestión de riesgos financieros y la entrega de presentaciones dentro de la Unidad de Impresión Comercial. Participé activamente y fui elegido para programas de formación en IA, demostrando un compromiso con el aprendizaje continuo en servicios financieros.
+          - Lideré proyectos de evaluación de riesgos financieros, mejorando las estrategias de mitigación de riesgos de la compañía.
+          - Diseñé y realicé presentaciones atractivas sobre las mejores prácticas y conocimientos en gestión de riesgos.
+          - Seleccionado para programas avanzados de formación en IA, destacando un enfoque proactivo en la aplicación de tecnología en servicios financieros.
+    
+    - role: Operario de Almacén Nocturno
+      time: Agosto 2021 – Octubre 2021
+      company: Amazon Warehouse, Greenogue Business Park, Rathcoole, Co. Dublín
+      details: |
+        Responsable del manejo eficiente de las operaciones del almacén, incluyendo la carga, descarga y organización de mercancías, así como el servicio al cliente y la impresión de etiquetas durante los turnos nocturnos.
+          - Aseguré el manejo y almacenamiento precisos de los bienes, contribuyendo al funcionamiento eficaz de las actividades del almacén.
+          - Proporcioné apoyo al servicio al cliente, resolviendo consultas y mejorando la satisfacción del cliente.
+          - Implementé un seguimiento y gestión eficientes de los bienes a través de una impresión de etiquetas y gestión de inventario efectivas.
 
-certifications:
-      title: Certifications
-      list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+    - role: Agente de Centro de Llamadas
+      time: Octubre 2020 – Agosto 2021
+      company: Prepaid Financial Services (FPS), Scurlockstown Business Park, Trim, Co. Meath
+      details: |
+        Brindé un servicio al cliente de alta calidad por teléfono y por correo electrónico, manejando quejas y proporcionando asesoramiento financiero a los clientes.
+          - Gestioné consultas y quejas de clientes, proporcionando resoluciones oportunas y efectivas.
+          - Ofrecí asesoramiento financiero a los clientes, asegurando que sus consultas fueran atendidas con información precisa y útil.
+          - Mantuve altos estándares de servicio al cliente, contribuyendo a la reputación de excelencia de la empresa.
 
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+    - role: QA Nivel 0 – Líder de Equipo de QA
+      time: Enero 2019 – Julio 2020
+      company: Media Interactiva, Edificio Centris, Tomares, Sevilla
+      details: |
+        Lideré el equipo de QA en el aseguramiento de la calidad del software, entrenando a nuevos agentes y traduciendo y preparando documentación oficial.
+          - Supervisé los procesos de prueba de software para asegurar la calidad del producto y el cumplimiento de las especificaciones.
+          - Orienté a nuevos agentes de QA, proporcionando formación y orientación para fortalecer las capacidades del equipo.
+          - Traduje y preparé documentación oficial, asegurando la precisión y claridad en la comunicación.
+      
 
 projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+  title: Portfolio
+  intro: >
+    Esta sección presenta una selección de mis proyectos iniciales, que marcan el comienzo de mi incursión en el desarrollo de software. Estos proyectos reflejan mis habilidades fundamentales en desarrollo web, mi afán por aprender y mi compromiso con la aplicación de mejores prácticas incluso en mis primeros trabajos. Aunque aún estoy en las primeras etapas de mi carrera, cada proyecto ha sido una oportunidad invaluable de aprendizaje, permitiéndome explorar diferentes aspectos del desarrollo y comprender los esenciales de la creación de productos digitales efectivos y amigables para el usuario.
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+  assignments:
+        - title: Uplift Octopus
+          link: "#hook"
+          tagline: "Sumergiéndose en universos de ciencia ficción: Una exploración interactiva."
+        
+        - title: <strong><small>Enlace al repositorio</small></strong>
+          link: "#hook repo"
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+        - title: Can't Stop
+          link: "#"
+          tagline: "Un juego interactivo de Python: Una versión simplificada del clásico juego de mesa 'push your luck'."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+        - title: <strong><small>Enlace al repositorio</small></strong>
+          link: "#hook repo"
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        - title: Detección de Oídio en Hojas de Cerezo
+          link: "#"
+          tagline: "Utilizando IA CNN para la detección precisa de oídio en hojas de cerezo."
 
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+        - title: <strong><small>Enlace al repositorio</small></strong>
+          link: "#hook repo"
 
 skills:
-    title: Skills &amp; Proficiency
+  title: Habilidades y Proficiencia
 
-    toolset:
-      - name: Python & Django
-        level: 98%
+  toolset:
+    - name: HTML5 & CSS
+      level: 95%
 
-      - name: Javascript & jQuery
-        level: 98%
+    - name: Javascript & jQuery
+      level: 60%
 
-      - name: Angular
-        level: 98%
+    - name: Python & Django
+      level: 60%
 
-      - name: HTML5 & CSS
-        level: 95%
+    - name: SQL y Bases de Datos
+      level: 70%
 
-      - name: Ruby on Rails
-        level: 85%
+    - name: Análisis de Datos con Numpy
+      level: 70%
 
-      - name: Sketch & Photoshop
-        level: 60%
+    - name: Formación en IA con CNN
+      level: 65%
 
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    - name: Herramientas de Despliegue (Heroku)
+      level: 75%
